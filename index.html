@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    
+    <!-- plugins (framework)-->
+    <!-- animate.style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <!-- plugins (fonts)-->
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- animate.style-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- the main style -->
+    <link rel="stylesheet" href="stylePreset/root.css"> <!-- Root -->
+    <link rel="stylesheet" href="stylePreset/Headers.css"> <!-- Header -->
+    <link rel="stylesheet" href="stylePreset/main.css"> <!-- main css -->
+    <link rel="stylesheet" href="stylePreset/nightMode.css"> <!-- Night Mode -->
+<body>
+    <header>
+        <div>
+            <h3>Joshua</h3>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+        <div>
+            <img src="img/icon/settings.png" alt="Settings" style="width:24px;height:24px;" onclick="document.querySelector('.settings').style.display='block';">
+        </div>
+    </header>
+
+<!-- settings appear -->
+<div class="settings">
+    <div class="header">
+        <h1>Settings</h1>
+        <img src="img/icon/cancel.png" alt="Close" style="width:24px;height:24px;" onclick="document.querySelector('.settings').style.display='none';">
+    </div>
+    <hr>
+    <div class="selection">
+        <p>General Setting</p>
+        <div class="selector">
+            <h3>Toggle Dark Theme</h3>
+
+            <label class="switch">
+                <input type="checkbox" class="switch" id="theme" onclick="theme()">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </div>
+</div>
+
+<!-- home sections -->
+
+    <section id="home">
+        <div class="container">
+            <!-- Text -->
+            <section>
+                <h3>Hello its me</h3>
+                <h1>Joshua,</h1>
+                <h5>- Front-End Developer</h5>
+                <br />
+                <a href="#about"><button>see more</button></a>
+            </section>
+            
+            <!-- Profile photo -->
+            <section>
+                <img src="img/photo/Joshua.jpg" id="Profile Portfolio" alt="Profile Photo" class="circle">
+            </section>
+        </div>
+    </section>
+
+<!-- about sections -->
+
+    <section id="about">
+        <div class="container">
+            <section>
+                <img src="img/photo/profile pics.jpg" alt="Profile Photo" id="profile-photo">
+            </section>
+            <section class="description">
+                <div id="name">
+                    <h1>Joshua San Juan</h1>
+                    <h5>IT STUDENT</h5>
+                </div>
+                <div id="story">
+                    <p>
+                        Hi, I am Joshua San Juan, <span id="age">00</span> years of age.
+                        I’m a Web Developer with a passion for Front-end Designs. I started learning code in 2020, and as time goes by, I fell in love with creating digital experiences.
+                    </p>
+                    <p>
+                        I love turning your ideas into code and bringing them to life with elegant designs and smoother functionality.
+                    </p>
+                    <p>
+                        Currently, I’m mastering front-end development to do it better and faster, as well as JavaScript and RAG (Retrieval-Augmented Generation) for automating repetitive tasks by creating AI agents.
+                    </p>
+                </div>
+            </section>
+        </div>
+    </section>
+
+<!-- projects sections -->
+
+    <section id="projects">
+        <div class="container">
+            <section class="header">
+                <h2>Here are some of my projects that im creating when i'm practicing. with my teamates at school</h2>
+            </section>
+            <section class="projects">
+                <div class="centered project-card">
+                    <div class="image">
+                        <img src="img/photo/comshop.png" alt="Project 1">
+                    </div>
+                    <div class="information">
+                        <h3>Compshop</h3>
+                        <p>A web-based application for managing computer shop operations.</p>
+                    </div>
+                    <div class="Technologies">
+                        <p id="html">HTML</p>
+                        <p id="css">CSS</p>
+                        <p id="javascript">JavaScript</p>
+                    </div>
+                    <div class="button">
+                        <a href="https://compcshop.netlify.app/main.html" target="_blank"><button>Preview</button></a>
+                    </div>
+                </div>
+            
+                <div class="centered project-card">
+                    <div class="image"></div>
+                    <div class="information">
+                        <h1>Coming Soon...</h1>
+                    </div>
+                    <div class="Technologies"></div>
+                    <div class="button"></div>
+                </div>
+
+                <div class="centered project-card">
+                    <div class="image"></div>
+                    <div class="information"></div>
+                    <div class="Technologies"></div>
+                    <div class="button"></div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+<!-- skills sections -->
+
+    <section id="skills">
+        <div class="container">
+            <div class="header">
+                <h1>What i use?</h1>
+                <p>this is the skills that i'm using right now</p>
+            </div>
+       
+            <div class="content">
+                <div class="side-bar">
+                    <h1>My Skills</h1>
+                </div>
+                <div class="skills">
+                    <div class="skill-card">
+                        <img src="img/icon/html.png" alt="HTML">
+                        <p>HTML</p>
+                        <p>for the sturucture of the websites.</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="img/icon/css.png" alt="CSS">
+                        <p>CSS</p>
+                        <p>for designing, animation, and responsive</p>
+                    </div>
+                    <div class="skill-card">
+                        <img src="img/icon/javascript.webp" alt="JavaScript" width="500px" height="500px">
+                        <p>JavaScript</p>
+                        <p>for the functionality of the websites.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- contacts sections -->
+
+    <section id="contacts">
+        <div class="contact-contaniner">
+            <section class="title">
+                <h2>Have an idea?</h2>
+                <h2>Let's Work Together</h2>
+            </section>
+            <section class="information">
+                <div class="header">
+                    <h1>Contact Us!</h1>    
+                </div>
+                <div class="email">
+                    <label for="Email">
+                        <h3>Email :</h3>
+                        <p>joshuasanjuangaming@gmail.com</p>
+                    </label>
+                    <label for="Contact">
+                        <h3>Number :</h3>
+                        <p>0970 - 313 - 8618</p>
+                    </label>
+                </div>
+                <div class="other">
+                <!-- Facebook link -->
+                    <a href="https://www.facebook.com/JoshuaSanJuan.PH/" target="_blank">
+                        <img src="img/icon/facebook.png" alt="Facebook" style="width:70px;height:70px; object-fit: cover;">
+                    </a>
+                <!-- Instagram link -->
+                    <a href="https://www.instagram.com/joshuasanjuan54/" target="_blank">
+                        <img src="img/icon/instagram.png" alt="Instagram" style="width:60px;height:60px; object-fit: cover;">
+                    </a>
+                <!-- LinkedIn link -->
+                    <a href="https://www.linkedin.com/in/joshua-san-juan-a8852b356" target="_blank">
+                        <img src="img/icon/linkedin.png" alt="LinkedIn" style="width:70px;height:70px; object-fit: cover;">
+                    </a>
+                </div>
+            </section>
+        </div>
+    </section>
+</body>
+
+<script src="js/extractor.js"> // Root Extractor </script>
+<script src="js/age.js"> // Age calculator that updates age every year </script>
+<script src="js/animation.js"> // animation preset (Animate.style is imported ) </script>
+</html>

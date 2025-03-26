@@ -1,0 +1,24 @@
+{
+    "lightTheme": {
+      "primary": "#98ceeb",
+      "secondary": "#ffc107",
+      "background": "#f7f7f7",
+      "text": "#333333",
+      "glow-color": "#add8e6",
+      "glow-shadow": "#6495ed"
+    },
+    "darkTheme": {
+      "primary": "#3498db",
+      "secondary": "#ff9900",
+      "background": "#222222",
+      "text": "#ffffff",
+      "glow-color": "#2f4f7f",
+      "glow-shadow": "#1a1d23"
+    },
+    "fonts": {
+      "button": "poppins",
+      "header": "poppins",
+      "body": "lemon"
+    }
+}
+  
