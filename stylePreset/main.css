@@ -1,21 +1,24 @@
+/* this is the main css for all pages */
+
 /* === General Body Styling === */
+/* standards container */
 html{
     scroll-behavior: smooth;
     overflow-x: hidden;
 }
 body {
-    font-family: Arial; 
+    font-family: Arial; /* Default font */
     margin: 0;
     padding: 0;
-    overflow: scroll; 
+    overflow: scroll; /* Prevent horizontal scrolling */
 }
 
 /* === Section Containers === */
+/* all container */
 #home, #about, #projects, #skills, #contacts {
     width: 100%;
     height: 100vh;
     display: flex;
-    flex-direction: column;
 }
 
 #home section,
@@ -31,126 +34,341 @@ body {
 /* === Home Section === */
 #home .container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     height: 100%;
     width: 100%;
-    flex-direction: column;
-    align-items: center;
 }
 
+#home section {
+    display: flex;
+    flex-direction: column;
+    inset: 0;
+}
+
+/* Profile Image Styling */
 #home img {
-    height: 250px;  /* Adjust size for mobile */
-    width: 250px;   /* Adjust size for mobile */
-    border-radius: 50%; 
+    height: 500px;
+    width: 500px;
+    border-radius: 50%; /* Circular profile image */
     object-fit: cover;
     display: block;
     margin: auto;
 }
 
 #home button {
-    margin-top: 20px;  /* Adjust for mobile */
-    width: 120px;
-    height: 45px;
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
     border-radius: 20px;
 }
 
 /* === About Section === */
 #about .container {
     display: flex;
-    flex-direction: column;  /* Adjust for mobile */
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#about .container section {
+    height: 100%;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#about section {
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;  /* Adjust space between content */
 }
 
-#about img {
+#about img{
     object-fit: cover;
-    height: 60%; /* Adjust size for mobile */
-    width: 80%;
-    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+    width: 60%;
+    border-radius: 50px;
 }
 
-#about .description p {
-    margin: 0 10px;  /* Adjust margin for smaller screens */
+#about .description{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#about hr{
+    opacity: 0;
+}
+
+#about .description p{
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 /* === Projects Section === */
 #projects .header{
     text-align: center;
     width: 100%;
-    padding: 30px;  /* Adjust padding for mobile */
+    padding: 50px;
 }
 
-#projects .projects {
+#projects .projects{
     display: flex;
-    flex-direction: column; /* Stack items on smaller screens */
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+#projects .container {
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 15px;  /* Adjust gap between projects */
 }
 
+/* project section */
 .project-card {
-    width: 100%;
-    max-width: 350px; /* Limit width for mobile */
-    height: auto; /* Let height adjust */
+    width: 450px;
+    height: 500px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     margin: 0;
-    border-radius: 20px;
 }
 
+#projects section a {
+    text-decoration: none; /* Remove underline from links */
+    color: black;
+}
+
+/* Project Subsections */
+.image, .Technologies, .information, .button {
+    display: flex;
+    margin: 5px;
+}
+
+/* Project Image Styling */
 #projects img {
-    width: 100%;  /* Ensure images fill the width */
-    height: 200px; /* Adjust height */
+    width: 400px;
+    height: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    clip-path: inset(10% 10% 10% 10%);
+}
+
+/* Project Description */
+#projects .information {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    inset: 0;
+}
+
+/* Project Technologies */
+#projects .Technologies {
+    inset: 0;
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Project Buttons */
+#projects .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+
+#projects button {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
 }
 
 /* === Skills Section === */
+/* Skill Container */
 #skills .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     height: 100%;
-    padding: 10px; /* Add padding for mobile */
 }
 
-#skills .header h1, #skills .header p {
-    font-size: 1.2rem; /* Adjust font size */
+#skills .content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
+/* Skills Header */
+#skills .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+#skills .header h1,
+#skills .header p {
+    margin: 0;
+}
+
+/* Sidebar for Skills */
+#skills .side-bar {
+    width: 100px;
+    height: 100%;
+    position: relative;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#skills .side-bar h1 {
+    writing-mode: vertical-rl; /* Vertical text */
+    transform: rotate(180deg); /* Flip text */
+}
+
+/* Skill Cards */
 #skills .skills {
     display: flex;
-    flex-direction: column;  /* Stack skill cards vertically */
-    gap: 10px;  /* Adjust gap between cards */
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 1rem;
 }
 
-/* Skill Card */
 #skills .skill-card {
-    width: 90%;  /* Ensure cards fit within screen */
-    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 300px;
     border-radius: 25px;
     text-align: center;
+}
+
+#skills .skill-card img {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+
+#skills .skill-card p {
+    margin: 0;
 }
 
 /* === Contacts Section === */
 #contacts {
     display: flex;
-    flex-direction: column;  /* Stack content on mobile */
     justify-content: center;
     align-items: center;
-    padding: 15px; /* Add padding for mobile */
 }
 
-/* === Settings Container === */
+/* Contact Container */
+#contacts .contact-contaniner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 70%;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+/* Contact Title */
+#contacts .title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+#contacts .title h2 {
+    margin: 0;
+}
+
+/* Contact Information */
+#contacts .information {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 1rem;
+}
+
+/* Header and Other Sections */
+#contacts .header, .other {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+}
+
+#contacts .information .email {
+    width: 90%;
+    margin-left: 50px;
+    flex-direction: column;
+}
+
+#contacts .information .other {
+    height: 20%;
+}
+
+#contacts .information .other img{
+    width: 20%;
+    height: 20%;
+}
+
+/*  === settings container === */
+/*Settings Containeer*/
 .settings{
     border: 2px solid black;
-    background-color: var(--primary);
-    right: 0;
-    width: 100%;
-    max-width: 400px;  /* Limit width on mobile */
-    height: 500px;
+    background-color: var(--primary) ;
+    right: 160px;
+    width: 400px;
+    height: 600px;
     position: fixed;
-    padding: 20px;
+    padding:  0 20px 20px 20px;
     color: var(--text);
-    display: none;
+    display: none; /*hide settings*/
     z-index: 2;
 }
 
@@ -161,66 +379,36 @@ body {
     padding-left: 20px;
 }
 
-.settings img {
+.settings img{
     top: 20px;
     right: 20px;
-    height: 40px;
-    width: 40px;
+    height: 50px;
+    width: 50px;
 }
 
-/* === Mobile-Specific Adjustments === */
-@media (max-width: 768px) {
-    /* Adjust sections for mobile */
-    #home img {
-        height: 200px; /* Smaller profile image */
-        width: 200px;
-    }
-
-    #about .container {
-        flex-direction: column;
-    }
-
-    .project-card {
-        width: 100%; /* Allow cards to stretch */
-        max-width: 90%;
-    }
-
-    .skills .skill-card {
-        width: 90%; /* Make skills cards more flexible */
-    }
-
-    .settings {
-        width: 90%;  /* Max width for mobile */
-        height: auto; /* Let height adjust for mobile */
-    }
-
-    .skills .skills {
-        flex-direction: column;  /* Stack skills on top of each other */
-    }
+.settings .selection{
+    padding-left: 20px;
 }
 
-/* === Smaller Screens Adjustments === */
-@media (max-width: 480px) {
-    #home button {
-        width: 100px;
-        height: 40px;
-    }
+.settings .selector{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    transition: 0.2s;
+}
 
-    #about .container {
-        gap: 10px;  /* Less space for mobile */
-    }
+.settings .selection p{
+    margin: 0;
+}
 
-    #projects .projects {
-        flex-direction: column;  /* Stack projects */
-    }
 
-    #skills .skills {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .contact-contaniner {
-        width: 100%;
-        height: 80%;
-    }
+/* animation data */
+.animate-on-scroll {
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+}
+.animate__animated {
+    opacity: 1;
 }
