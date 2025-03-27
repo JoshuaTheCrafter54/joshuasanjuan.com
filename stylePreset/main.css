@@ -34,6 +34,7 @@ body {
 /* === Home Section === */
 #home .container {
     display: flex;
+    flex-direction:column;
     justify-content: space-around;
     height: 100%;
     width: 100%;
