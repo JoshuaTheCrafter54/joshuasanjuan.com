@@ -34,7 +34,6 @@ body {
 /* === Home Section === */
 #home .container {
     display: flex;
-    flex-direction:column;
     justify-content: space-around;
     height: 100%;
     width: 100%;
@@ -66,6 +65,7 @@ body {
 /* === About Section === */
 #about .container {
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
