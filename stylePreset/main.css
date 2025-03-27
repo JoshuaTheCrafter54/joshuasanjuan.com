@@ -41,7 +41,6 @@ body {
 
 #home section {
     display: flex;
-    flex-direction: column;
     inset: 0;
 }
 
@@ -73,7 +72,6 @@ body {
     height: 100%;
     width: 50vw;
     display: flex;
-    flex-direction: column;
 }
 
 #about section {
@@ -130,7 +128,6 @@ body {
     height: 100%;
     gap: 10px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -141,7 +138,6 @@ body {
     height: 500px;
     border-radius: 30px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -176,7 +172,6 @@ body {
     width: 100%;
     height: 100px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     inset: 0;
@@ -212,7 +207,6 @@ body {
 /* Skill Container */
 #skills .container {
     display: flex;
-    flex-direction: column;
     align-items: center;
     width: 100%;
     height: 100%;
