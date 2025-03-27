@@ -1,4 +1,5 @@
-/* this is the main css for all pages */
+
+flex-/* this is the main css for all pages */
 
 /* === General Body Styling === */
 /* standards container */
@@ -210,6 +211,7 @@ body {
 /* Skill Container */
 #skills .container {
     display: flex;
+    flex-direction: column;
     align-items: center;
     width: 100%;
     height: 100%;
