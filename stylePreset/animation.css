@@ -1,0 +1,754 @@
+/* ATTENTION SEEKERS */
+.bounce, 
+.flash, 
+.pulse, 
+.rubberBand, 
+.shakeX, 
+.shakeY, 
+.headShake, 
+.swing, 
+.tada,
+.wobble,
+.jello, 
+.heartBeat,
+
+/* FLIPPERS */
+.flip,
+.flipX,
+.flipY,
+.flipInX,
+.flipOutY,
+
+/* LIGHTSPEED */
+.lightSpeedInLeft,
+.lightSpeedInRight,
+.lightSpeedOutLeft,
+.lightSpeedOutRight,
+
+/* SPECIALS */
+.hinge,
+.jackInTheBox,
+.rollIn,
+.rollOut,
+
+/* BACK ENTRANCES */ 
+.backInDown, 
+.backInLeft, 
+.backInRight, 
+.backInUp, 
+
+/* BACK EXITS */
+.backOutDown, 
+.backOutLeft, 
+.backOutRight, 
+.backOutUp,
+
+/* BOUNCE ENTRANCES */
+.bouceIn,
+.bouceInLeft,
+.bouceInRight,
+.bouceInUp,
+.bouceInDown,
+
+/* BOUNCE EXITS */
+.bounceOut,
+.bounceOutLeft,
+.bounceOutRight,
+.bounceOutUp,
+.bounceOutDown,
+
+/* FADE ENTRANCES */
+.fadeIn,
+.fadeInLeft,
+.fadeInRight,
+.fadeInUp,
+.fadeInDown,
+.fadeInLeftBig,
+.fadeInRightBig,
+.fadeInUpBig,
+.fadeInDownBig,
+/*DIAGONAL ANIMATIONS*/
+.fadeInTopLeft,
+.fadeInTopRight,
+.fadeInBottomLeft,
+.fadeInBottomRight,
+
+/* FADE EXITS */
+.fadeOut
+.fadeOutLeft
+.fadeOutRight
+.fadeOutUp
+.fadeOutDown
+.fadeOutLeftBig
+.fadeOutRightBig
+.fadeOutUpBig
+.fadeOutDownBig
+/*DIAGONAL ANIMATION*/
+.fadeOutTopLeft,
+.fadeOutTopRight,
+.fadeOutBottomLeft,
+.fadeOutBottomeRight,
+
+/* ROTATE ENTRANCES */
+.rotateIn,
+.rotateInDownLeft,
+.rotateInDownRight,
+.rotateInUpLeft,
+.rotateInUpRight,
+
+/* ROTATE EXITS */
+.rotateOut,
+.rotateOutDownLeft,
+.rotateOutDownRight,
+.rotateOutUpLeft,
+.rotateOutUpRight,
+
+/* ZOOM ENTRANCES */
+.zoomIn,
+.zoomInLeft,
+.zoomInRight,
+.zoomInDown,
+.zoomInUp,
+
+/* ZOOM EXITS */
+.zoomOut,
+.zoomOutLeft,
+.zoomOutRight,
+.zoomOutDown,
+.zoomOutUp,
+
+/* SLIDE ENTRANCES */
+.slideInLeft,
+.slideInRight,
+.slideInUp,
+.slideInDown,
+
+/* SLIDE EXITS */
+.slideOutLeft,
+.slideOutRight,
+.slideOutUp,
+.slideOutDown{
+    visibility: hidden;
+}
+
+/* === */
+
+/*=======================================================================*/
+
+/* === */
+
+/* ATTENTION SEEKERS */
+.bounce.active {
+    visibility: visible;
+
+    animation: bounce;
+    animation-duration: 0.5s;
+}
+.flash.active {
+    visibility: visible;
+
+    animation: flash;
+    animation-duration: 0.5s;
+}
+.pulse.active {
+    visibility: visible;
+
+    animation: pulse;
+    animation-duration: 0.5s;
+}
+.rubberBand.active {
+    visibility: visible;
+
+    animation: rubberBand;
+    animation-duration: 0.5s;
+}
+.shakeX.active {
+    visibility: visible;
+
+    animation: shakeX;
+    animation-duration: 0.5s;
+}
+.shakeY.active {
+    visibility: visible;
+
+    animation: shakeY;
+    animation-duration: 0.5s;
+}
+.headShake.active {
+    visibility: visible;
+
+    animation: headShake;
+    animation-duration: 0.5s;
+}
+.swing.active {
+    visibility: visible;
+
+    animation: swing;
+    animation-duration: 0.5s;
+}
+.tada.active {
+    visibility: visible;
+
+    animation: tada;
+    animation-duration: 0.5s;
+}
+.wobble.active {
+    visibility: visible;
+
+    animation: wobble;
+    animation-duration: 0.5s;
+}
+.jello.active {
+    visibility: visible;
+
+    animation: jello;
+    animation-duration: 0.5s;
+}
+.heartBeat.active {
+    visibility: visible;
+
+    animation: heartBeat;
+    animation-duration: 0.5s;
+}
+
+/* FLIPPERS */
+.flip.active {
+    visibility: visible;
+
+    animation: flip;
+    animation-duration: 0.5s;
+}
+.flipX.active {
+    visibility: visible;
+
+    animation: flipX;
+    animation-duration: 0.5s;
+}
+.flipY.active {
+    visibility: visible;
+
+    animation: flipY;
+    animation-duration: 0.5s;
+}
+.flipInX.active {
+    visibility: visible;
+
+    animation: flipInX;
+    animation-duration: 0.5s;
+}
+.flipOutY.active {
+    visibility: visible;
+
+    animation: flipOutY;
+    animation-duration: 0.5s;
+}
+
+/* LIGHTSPEED */
+.lightSpeedInLeft.active {
+    visibility: visible;
+
+    animation: lightSpeedInLeft;
+    animation-duration: 0.5s;
+}
+.lightSpeedInRight.active {
+    visibility: visible;
+
+    animation: lightSpeedInRight;
+    animation-duration: 0.5s;
+}
+.lightSpeedOutLeft.active {
+    visibility: visible;
+
+    animation: lightSpeedOutLeft;
+    animation-duration: 0.5s;
+}
+.lightSpeedOutRight.active {
+    visibility: visible;
+
+    animation: lightSpeedOutRight;
+    animation-duration: 0.5s;
+}
+
+/* SPECIALS */
+.hinge.active {
+    visibility: visible;
+
+    animation: hinge;
+    animation-duration: 0.5s;
+}
+.jackInTheBox.active {
+    visibility: visible;
+
+    animation: jackInTheBox;
+    animation-duration: 0.5s;
+}
+.rollIn.active {
+    visibility: visible;
+
+    animation: rollIn;
+    animation-duration: 0.5s;
+}
+.rollOout.active {
+    visibility: visible;
+
+    animation: rollOut;
+    animation-duration: 0.5s;
+}
+
+/* BACK ENTRANCES */
+.backInDown.active {
+    visibility: visible;
+
+    animation: backInDown;
+    animation-duration: 0.5s;
+}
+.backInLeft.active {
+    visibility: visible;
+
+    animation: backInLeft;
+    animation-duration: 0.5s;
+}
+.backInRight.active {
+    visibility: visible;
+
+    animation: backInRight;
+    animation-duration: 0.5s;
+}
+.backInUp.active {
+    visibility: visible;
+
+    animation: backInUp;
+    animation-duration: 0.5s;
+}
+
+/* BACK EXITS */
+.backOutDown.active {
+    visibility: visible;
+
+    animation: backOutDown;
+    animation-duration: 0.5s;
+}
+.backOutLeft.active {
+    visibility: visible;
+
+    animation: backOutLeft;
+    animation-duration: 0.5s;
+}
+.backOutRight.active {
+    visibility: visible;
+
+    animation: backOutRight;
+    animation-duration: 0.5s;
+}
+.backOutUp.active {
+    visibility: visible;
+
+    animation: backOutUp;
+    animation-duration: 0.5s;
+}
+
+/* BOUNCE ENTRANCES */
+.bouceIn.active {
+    visibility: visible;
+
+    animation: bounceIn;
+    animation-duration: 0.5s;
+}
+.bouceInLeft.active {
+    visibility: visible;
+
+    animation: bounceInLeft;
+    animation-duration: 0.5s;
+}
+.bouceInRight.active {
+    visibility: visible;
+
+    animation: bounceInRight;
+    animation-duration: 0.5s;
+}
+.bouceInUp.active {
+    visibility: visible;
+
+    animation: bounceInUp;
+    animation-duration: 0.5s;
+}
+.bouceInDown.active {
+    visibility: visible;
+
+    animation: bounceInDown;
+    animation-duration: 0.5s;
+}
+
+/* BOUNCE EXITS */
+.bounceOut.active {
+    visibility: visible;
+
+    animation: bounceOut;
+    animation-duration: 0.5s;
+}
+.bounceOutLeft.active {
+    visibility: visible;
+
+    animation: bounceOutLeft;
+    animation-duration: 0.5s;
+}
+.bounceOutRight.active {
+    visibility: visible;
+
+    animation: bounceOutRight;
+    animation-duration: 0.5s;
+}
+.bounceOutUp.active {
+    visibility: visible;
+
+    animation: bounceOutUp;
+    animation-duration: 0.5s;
+}
+.bounceOutDown.active {
+    visibility: visible;
+
+    animation: bounceOutDown;
+    animation-duration: 0.5s;
+}
+
+/* FADE ENTRANCES */
+.fadeIn.active {
+    visibility: visible;
+
+    animation: fadeIn;
+    animation-duration: 0.5s;
+}
+.fadeInLeft.active {
+    visibility: visible;
+
+    animation: fadeInLeft;
+    animation-duration: 0.5s;
+}
+.fadeInRight.active {
+    visibility: visible;
+
+    animation: fadeInRight;
+    animation-duration: 0.5s;
+}
+.fadeInUp.active {
+    visibility: visible;
+
+    animation: fadeInUp;
+    animation-duration: 0.5s;
+}
+.fadeInDown.active {
+    visibility: visible;
+
+    animation: fadeInDown;
+    animation-duration: 0.5s;
+}
+.fadeInLeftBig.active {
+    visibility: visible;
+
+    animation: fadeInLeftBig;
+    animation-duration: 0.5s;
+}
+.fadeInRightBig.active {
+    visibility: visible;
+
+    animation: fadeInRightBig;
+    animation-duration: 0.5s;
+}
+.fadeInUpBig.active {
+    visibility: visible;
+
+    animation: fadeInUpBig;
+    animation-duration: 0.5s;
+}
+.fadeInDownBig.active {
+    visibility: visible;
+
+    animation: fadeInDownBig;
+    animation-duration: 0.5s;
+}
+/*DIAGONAL ANIMATIONS*/
+.fadeInTopLeft.active {
+    visibility: visible;
+
+    animation: fadeInTopLeft;
+    animation-duration: 0.5s;
+}
+.fadeInTopRight.active {
+    visibility: visible;
+
+    animation: fadeInTopRight;
+    animation-duration: 0.5s;
+}
+.fadeInBottomLeft.active {
+    visibility: visible;
+
+    animation: fadeInBottomLeft;
+    animation-duration: 0.5s;
+}
+.fadeInBottomRight.active {
+    visibility: visible;
+
+    animation: fadeInBottomRight;
+    animation-duration: 0.5s;
+}
+
+/* FADE EXITS */
+.fadeOut.active {
+    visibility: visible;
+
+    animation: fadeOut;
+    animation-duration: 0.5s;
+}
+.fadeOutLeft.active {
+    visibility: visible;
+
+    animation: fadeOutLeft;
+    animation-duration: 0.5s;
+}
+.fadeOutRight.active {
+    visibility: visible;
+
+    animation: fadeOutRight;
+    animation-duration: 0.5s;
+}
+.fadeOutUp.active {
+    visibility: visible;
+
+    animation: fadeOutUp;
+    animation-duration: 0.5s;
+}
+.fadeOutDown.active {
+    visibility: visible;
+
+    animation: fadeOutDown;
+    animation-duration: 0.5s;
+}
+.fadeOutLeftBig.active {
+    visibility: visible;
+
+    animation: fadeOutLeftBig;
+    animation-duration: 0.5s;
+}
+.fadeOutRightBig.active {
+    visibility: visible;
+
+    animation: fadeOutRightBig;
+    animation-duration: 0.5s;
+}
+.fadeOutUpBig.active {
+    visibility: visible;
+
+    animation: fadeOutUpBig;
+    animation-duration: 0.5s;
+}
+.fadeOutDownBig.active {
+    visibility: visible;
+
+    animation: fadeOutDownBig;
+    animation-duration: 0.5s;
+}
+/*DIAGONAL ANIMATION*/
+.fadeOutTopLeft.active {
+    visibility: visible;
+
+    animation: fadeOutTopLeft;
+    animation-duration: 0.5s;
+}
+.fadeOutTopRight.active {
+    visibility: visible;
+
+    animation: fadeOutTopRight;
+    animation-duration: 0.5s;
+}
+.fadeOutBottomLeft.active {
+    visibility: visible;
+
+    animation: fadeOutBottomLeft;
+    animation-duration: 0.5s;
+}
+.fadeOutBottomeRight.active {
+    visibility: visible;
+
+    animation: fadeOutBottomRight;
+    animation-duration: 0.5s;
+}
+
+/* ROTATE ENTRANCES */
+.rotateIn.active {
+    visibility: visible;
+
+    animation: rotateIn;
+    animation-duration: 0.5s;
+}
+.rotateInDownLeft.active {
+    visibility: visible;
+
+    animation: rotateInDownLeft;
+    animation-duration: 0.5s;
+}
+.rotateInDownRight.active {
+    visibility: visible;
+
+    animation: rotateInDownRight;
+    animation-duration: 0.5s;
+}
+.rotateInOutLeft.active {
+    visibility: visible;
+
+    animation: rotateInUpLeft;
+    animation-duration: 0.5s;
+}
+.rotateInOutRight.active {
+    visibility: visible;
+
+    animation: rotateInUpRight;
+    animation-duration: 0.5s;
+}
+
+/* ROTATE EXITS */
+.rotateOut.active {
+    visibility: visible;
+
+    animation: rotateOut;
+    animation-duration: 0.5s;
+}
+.rotateOutDownLeft.active {
+    visibility: visible;
+
+    animation: rotateOutDownLeft;
+    animation-duration: 0.5s;
+}
+.rotateOutDownRight.active {
+    visibility: visible;
+
+    animation: rotateOutDownRight;
+    animation-duration: 0.5s;
+}
+.rotateOutUpLeft.active {
+    visibility: visible;
+
+    animation: rotateOutUpLeft;
+    animation-duration: 0.5s;
+}
+.rotateOutUpRight.active {
+    visibility: visible;
+
+    animation: rotateOutUpRight;
+    animation-duration: 0.5s;
+}
+
+/* ZOOM ENTRANCES */
+.zoomIn.active {
+    visibility: visible;
+
+    animation: zoomIn;
+    animation-duration: 0.5s;
+}
+.zoomInLeft.active {
+    visibility: visible;
+
+    animation: zoomInLeft;
+    animation-duration: 0.5s;
+}
+.zoomInRight.active {
+    visibility: visible;
+
+    animation: zoomInRight;
+    animation-duration: 0.5s;
+}
+.zoomInDown.active {
+    visibility: visible;
+
+    animation: zoomInDown;
+    animation-duration: 0.5s;
+}
+.zoomInUp.active {
+    visibility: visible;
+
+    animation: zoomInUp;
+    animation-duration: 0.5s;
+}
+
+/* ZOOM EXITS */
+.zoomOut.active {
+    visibility: visible;
+
+    animation: zoomOut;
+    animation-duration: 0.5s;
+}
+.zoomOutLeft.active {
+    visibility: visible;
+
+    animation: zoomOutLeft;
+    animation-duration: 0.5s;
+}
+.zoomOutRight.active {
+    visibility: visible;
+
+    animation: zoomOutRight;
+    animation-duration: 0.5s;
+}
+.zoomOutDown.active {
+    visibility: visible;
+
+    animation: zoomOutDown;
+    animation-duration: 0.5s;
+}
+.zoomOutUp.active {
+    visibility: visible;
+
+    animation: zoomOutUp;
+    animation-duration: 0.5s;
+}
+
+/* SLIDE ENTRANCES */
+.slideInLeft.active {
+    visibility: visible;
+
+    animation: slideInLeft;
+    animation-duration: 0.5s;
+}
+.slideInRight.active {
+    visibility: visible;
+
+    animation: slideInRight;
+    animation-duration: 0.5s;
+}
+.slideInUp.active {
+    visibility: visible;
+
+    animation: slideInUp;
+    animation-duration: 0.5s;
+}
+.slideInDown.active {
+    visibility: visible;
+
+    animation: slideInDown;
+    animation-duration: 0.5s;
+}
+
+/* SLIDE EXITS */
+.slideOutLeft.active {
+    visibility: visible;
+
+    animation: slideOutLeft;
+    animation-duration: 0.5s;
+}
+.slideOutRight.active {
+    visibility: visible;
+
+    animation: slideOutRight;
+    animation-duration: 0.5s;
+}
+.slideOutUp.active {
+    visibility: visible;
+
+    animation: slideOutUp;
+    animation-duration: 0.5s;
+}
+.slideOutDown.active {
+    visibility: visible;
+
+    animation: slideOutDown;
+    animation-duration: 0.5s;
+}

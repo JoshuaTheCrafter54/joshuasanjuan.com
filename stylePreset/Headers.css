@@ -1,0 +1,51 @@
+header{
+    /*hindi kasama*/
+    color: white;
+
+
+    height:80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    position: fixed;
+    z-index: 1;
+}
+
+nav ul{
+    display: flex;
+    gap: 10px;
+} 
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    position: relative;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px 30px 10px 30px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    position: relative;
+    border-radius: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    filter: invert(1);
+}
+
+header #menu{
+    visibility: hidden;
+}

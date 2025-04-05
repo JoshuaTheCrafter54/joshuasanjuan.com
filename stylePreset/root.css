@@ -1,0 +1,169 @@
+/* this is the root files for the design, colors and fonts */
+
+/* body color */
+body{
+    background-color: var(--background);
+}
+
+/* === header === */
+/* background */
+header{
+    background-color: var(--secondary); 
+}
+
+header a:hover{
+    background-color: var(--secondary);
+}
+
+/* font and color */
+header h3, header a{
+    color: var(--text);
+    font-family: var(--header);
+}
+
+/* === Home Section === */
+/* color and font */
+#home h3,
+#home h1,
+#home h5{
+    margin: 0;
+    color: var(--text);
+    font-family: var(--body);
+}  
+
+#home p{
+    color: var(--text   );
+}
+
+#home button{
+    background-color: var(--secondary);
+    font-family: var(--button);
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text);
+    transition: 0.3s ease-in-out;
+    border: none;
+}
+
+/* home animations */
+#home button:hover{
+    transition: 0.3s ease-in-out;
+    border: 2px solid var(--glow-color);
+    box-shadow: 0 10px 20px var(--glow-shadow);
+}
+
+/* image border */
+#home img{
+    border: 5px solid var(--glow-color);
+    border-radius: 50%;
+    box-shadow: 0 10px 20px var(--glow-shadow);
+}
+
+/* === About Section === */
+#about #profile-photo{
+    border: 5px solid var(--glow-color);
+    box-shadow: 0 15px 20px var(--glow-shadow); 
+}
+
+#about .description{
+    color: var(--text);
+    font-family: var(--body);
+}
+
+#about .description #name h1,h5{
+    margin: 0;
+    text-align: center;    
+}
+
+/* === Project Sections === */
+#projects .header{
+    background-color: var(--primary);
+    color: var(--text);
+    font-family: var(--body);
+}
+
+#projects .project-card{
+    background-color: white;
+    border: 5px solid var(--glow-color);
+    box-shadow: 0 10px 20px var(--glow-shadow);
+}
+
+#projects .project-card h3,p{
+    font-family: var(--body);
+}
+
+.project-card button{
+    background-color: var(--secondary);
+    font-family: var(--button);
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--text);
+    transition: 0.3s ease-in-out;
+    border: none;
+}
+
+/* project card button hover */
+.project-card button:hover{
+    transition: 0.3s ease-in-out;
+    border: 2px solid var(--glow-color);
+    box-shadow: 0 0 20px var(--glow-shadow);
+}
+
+/* === Skills Section === */
+#skills .header{
+    background-color: var(--primary);
+    height: 150px;
+    color:var(--text);
+}
+#skills .side-bar{
+    background-color: var(--secondary);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#skills .skill-card{
+    background-color: white;
+    color: black;
+    border: 5px solid var(--glow-color);
+    box-shadow: 0 15px 20px var(--glow-shadow);
+}
+
+/* === Contact Sections === */
+.contact-container{
+    color: var(--text);
+}
+
+#contacts .contact-container{
+    border: 10px solid var(--glow-color);
+    box-shadow: 0 15px 20px var(--glow-shadow);
+    background-color: var(--secondary);
+}
+#contacts .title{
+    background-color: var(--primary);
+    font-size: 20px;
+    font-family: var(--body);
+}
+
+#contacts .information{
+    color: black;
+    font-family: var(--body);
+}
+
+/* mobile links */
+.mobile-border{
+    border: 1px solid var(--glow-color);
+    box-shadow: 0 5px 10px var(--glow-shadow);
+}
+/* FONT SIZE */
+#home h3{ font-size: 50px; }
+#home h1{ font-size: 100px; }
+#home h5{ font-size: 25px; }
+#about .description #name h1{ font-size: 60px; }
+#about .description #name h5{ font-size: 25px; }
+#about .description #story p{ font-size: 25px; }
+
+.settings .theme-container .theme-border .image{
+    border: 1px solid var(--glow-color);
+    box-shadow: 0 5px 10px var(--glow-shadow);
+    border-radius: 30px;
+}
